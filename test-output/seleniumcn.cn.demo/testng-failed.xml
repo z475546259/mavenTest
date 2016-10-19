@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [seleniumcn.cn.demo]" parallel="classes">
+  <test name="test_seleniumcn(failed)" parallel="classes">
+    <classes>
+      <class name="com.wxz.TestTestNG_FailProject">
+        <methods>
+          <include name="helloWorld"/>
+          <include name="tearDown"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- com.wxz.TestTestNG_FailProject -->
+    </classes>
+  </test> <!-- test_seleniumcn(failed) -->
+</suite> <!-- Failed suite [seleniumcn.cn.demo] -->

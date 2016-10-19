@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="seleniumcn.cn.demo"  parallel="classes" thread-count="5">    
+    <test verbose="2" preserve-order="true"  name="test_seleniumcn" >
+        <classes>
+            <class name="com.wxz.TestTestNG_FailProject">
+            	<methods>
+                    <include name="Init" />
+                    <include name="helloWorld" />
+                    <include name="tearDown" />
+            	</methods>
+            </class>
+           <!--  <class name="com.wxz.TestTestNG_PassProject"/> -->
+        </classes>
+    </test>  
+</suite>
